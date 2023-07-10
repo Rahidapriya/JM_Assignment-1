@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-section{
+    background: rgba(229, 84, 115, 0.10);
+
+    height: 100vh;
+    overflow: hidden;
+}
+.banner{
+   display: flex;
+    padding: 50px 140px 0px 140px;
+    align-items: center;
+    gap: 100px;
+   
+}
+.heading{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+font-size: 70px;
+font-style: normal;
+font-weight: 800;
+}
+.heading-desp{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Lato', sans-serif;
+font-size: 17px;
+justify-self: start;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+margin-top: 20px;
+}
+
+.btn{
+    /* display: inline-flex; */
+padding: 12px 30px;
+border-radius: 8px;
+background: #E55473;
+color:#ffffff;
+border: none;
+font-size: 20px;
+cursor: pointer;
+/* align-items: flex-start; */
+/* gap: 10px; */
+margin-top: 32px;
+}
+.banner .profile-picture {
+    width: 535px;
+    height: 699px;
+ 
+    
+}
+/* --------------------------section 1-------------------------- */
+.featured{
+    margin: 48px 200px 120px 200px; 
+}
+
+.featured-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap:24px; */
+   
+}
+.featured-flowers{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap:24px;
+    margin-top: 50px;
+}
+.flowers-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:24px;
+    
+}
+
+.flowers-background1{
+    width: 364px;
+    height: 438px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+position: relative;
+gap:24px;
+
+}
+.flowers-background2{
+    width: 364px;
+height: 438px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+position: relative;
+gap:24px;
+
+}
+.flowers-background3{
+    width: 364px;
+height: 438px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+position: relative;
+gap:24px;
+
+}
+.flower-img{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 270px;
+height: 350px;
+align-items: center;
+margin-left: 50px;
+
+}
+.featured-title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.featured-paragraph{
+    margin-top: 12px;
+   
+    width: 460px;
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+/* line-height: 30px; */
+}
+.flowers-det{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+text-decoration-line: underline;
+cursor: pointer;
+}
+/* --------------------------section 2--------------------------- */
+.featured-icon{
+    margin: 48px 200px 120px 200px; 
+    /* width: 1440px;
+height: 320px; */
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+
+}
+
+
+.icons{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 46px 117px;
+    text-align: center;
+}
+.icon-paragraph{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+}
+/* --------------------section-3---------------------- */
+.signup-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.05);
+    gap:76px;
+    padding: 100px 400px;
+    text-align: center;
+
+}
+.signup-img{
+    width: 250px;
+height: 320px;
+
+}
+/* ----------------------section-4------------ */
+.instagram-section{
+    margin: 48px 200px 120px 200px; 
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.insta-img-section{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.insta-img{
+    width: 252px;
+height: 296px;
+gap: 30px;
+}
+/* ----------------------section-5---------------------- */
+.subscribe-section{
+    margin: 48px 200px 120px 200px; 
+    padding: 100px 200px;
+    background-image: url('flower Asset/Rectangle\ 9.png');
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+   
+}
+
+.subscribe-btn{
+    border-radius: 8px;
+    background: #E55473;
+    width: 100px;
+    height: 43px;
+    border: none;
+   color: #FFF;
+ font-family: Lato;
+font-size: 14px;
+font-weight: 700;
+
+}
+.email-layout{
+    margin-top: 30px;
+}
+
+.email{
+    width: 500px;
+height: 44px;
+border-radius: 8px;
+background: #FFF;
+border: none;
+}
