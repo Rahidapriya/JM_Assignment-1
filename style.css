@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+title{
+    color:#E55473
+}
 .head-section{
     background: rgba(229, 84, 115, 0.10);
 
