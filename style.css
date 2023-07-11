@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-title{
-    color:#E55473
-}
+
 .head-section{
     background: rgba(229, 84, 115, 0.10);
 
@@ -326,7 +324,7 @@ color:  #E55473;
 
 /* ----------------------section-5---------------------- */
 .subscribe-section{
-    margin: 48px 200px 120px 200px; 
+    margin: 150px 200px 120px 200px; 
     padding: 100px 200px;
     background-image: url('Flower Asset/Rectangle9.png');
     display: flex;
